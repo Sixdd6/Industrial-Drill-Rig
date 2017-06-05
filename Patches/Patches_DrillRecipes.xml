@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+      <xpath>*/ThingDef[defName="CAL_Aluminum"]</xpath>
+      <!-- <success>Invert</success> -->
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName="DrillRigIndustrial"]/recipes</xpath>
+        <value>
+          <li>DrillAluminum</li>
+          <li>DrillTin</li>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillAluminum"]/products</xpath>
+        <value>
+          <CAL_Aluminum>10</CAL_Aluminum>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillTin"]/products</xpath>
+        <value>
+          <EXP_Tin>10</EXP_Tin>
+        </value>
+    </li>
+    </Operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+      <xpath>*/ThingDef[defName="InsulatedConduit"]</xpath>
+      <!-- <success>Invert</success> -->
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillCoal</li>
+          <li>DrillCinnabar</li>
+          <li>DrillGarnet</li>
+          <li>DrillPeridot</li>
+          <li>DrillAmethyst</li>
+          <li>DrillCitrine</li>
+          <li>DrillTopaz</li>
+          <li>DrillTurquoise</li>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillCoal"]/products</xpath>
+        <value>
+          <Charcoal>10</Charcoal>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillCinnabar"]/products</xpath>
+        <value>
+          <Cinnabar>10</Cinnabar>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillGarnet"]/products</xpath>
+        <value>
+          <Garnet>10</Garnet>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillPeridot"]/products</xpath>
+        <value>
+          <Peridot>10</Peridot>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillAmethyst"]/products</xpath>
+        <value>
+          <Amethyst>10</Amethyst>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillCitrine"]/products</xpath>
+        <value>
+          <Citrine>10</Citrine>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillTopaz"]/products</xpath>
+        <value>
+          <Topaz>10</Topaz>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillTurquoise"]/products</xpath>
+        <value>
+          <Turquoise>10</Turquoise>
+        </value>
+    </li>
+    </Operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+      <xpath>*/ThingDef[defName="EXP_Copper"]</xpath>
+      <!-- <success>Invert</success> -->
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName="DrillRigIndustrial"]/recipes</xpath>
+        <value>
+          <li>DrillLead</li>
+          <li>DrillCopper</li>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillLead"]/products</xpath>
+        <value>
+          <EXP_Lead>10</EXP_Lead>
+        </value>
+    </li>
+    <li Class="PatchOperationAdd">
+      <xpath>*/RecipeDef[defName="DrillCopper"]/products</xpath>
+        <value>
+          <EXP_Copper>10</EXP_Copper>
+        </value>
+    </li>
+    </Operations>
+  </Operation>
+
+</Patch>
