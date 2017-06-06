@@ -42,6 +42,9 @@
 				<li>MetalAlloys</li>
 			</categories>
 		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableMachining</li>
+		</recipeUsers>
 	</RecipeDef>
 
 </RecipeDefs>
