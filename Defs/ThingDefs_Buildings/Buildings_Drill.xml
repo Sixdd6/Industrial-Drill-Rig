@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-  <ThingDef ParentName="BenchBase" Name="DrillRigIndustrial">
+  <ThingDef ParentName="BenchBase" Name="IndustrialDrillRig">
     <defName>IndustrialDrillRig</defName>
     <label>Industrial Mining Drill</label>
     <ThingClass>Building_WorkTable_HeatPush</ThingClass>
