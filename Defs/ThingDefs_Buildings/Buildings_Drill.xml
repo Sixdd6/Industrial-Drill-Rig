@@ -30,7 +30,7 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <Size>(3,3)</Size>
-    <DesignationCategory>Production2</DesignationCategory>
+    <DesignationCategory>Production</DesignationCategory>
     <Passability>Impassable</Passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
