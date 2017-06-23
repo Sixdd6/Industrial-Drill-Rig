@@ -25,9 +25,6 @@
         <count>1</count>
       </li>
     </ingredients>
-    <products>
-      <IndustrialPDA>1</IndustrialPDA>
-    </products>
     <fixedIngredientFilter>
       <thingDefs>
         <li>IndustrialPDA</li>
@@ -40,8 +37,9 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillGold</defName>
 	<label>Extract Gold</label>
-	<workAmount>6000</workAmount>
+	<workAmount>7200</workAmount>
     <products>
+      <IndustrialPDA>1</IndustrialPDA>
       <Gold>50</Gold>
     </products>
   </RecipeDef>
@@ -49,8 +47,9 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillUranium</defName>
 	<label>Extract Uranium</label>
-	<workAmount>6000</workAmount>
+	<workAmount>7200</workAmount>
     <products>
+      <IndustrialPDA>1</IndustrialPDA>
       <Uranium>50</Uranium>
     </products>
   </RecipeDef>
@@ -58,8 +57,9 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillSilver</defName>
 	<label>Extract Silver</label>
-	<workAmount>6000</workAmount>
+	<workAmount>7200</workAmount>
     <products>
+      <IndustrialPDA>1</IndustrialPDA>
       <Silver>50</Silver>
     </products>
   </RecipeDef>
@@ -67,18 +67,92 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillJade</defName>
   <label>Extract Jade</label>
-  <workAmount>6000</workAmount>
+  <workAmount>7200</workAmount>
     <products>
+      <IndustrialPDA>1</IndustrialPDA>
       <Jade>10</Jade>
     </products>
   </RecipeDef>
 
+<!-- STC_Charcoal -->
   <RecipeDef ParentName="DrillMetalRecipeBase">
-	<defName>DrillCoal</defName>
-	<label>Extract Coal</label>
-	<workAmount>6000</workAmount>
+    <defName>DrillCharcoal</defName>
+    <label>Extract Charcoal</label>
+    <workAmount>7200</workAmount>
     <products>
-      
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Charcoal>10</STC_Charcoal>
+    </products>
+  </RecipeDef>
+
+<!--  Begin STC Gems  -->
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillCinnabar</defName>
+  <label>Extract Cinnabar</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Cinnabar>10</STC_Cinnabar>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillGarnet</defName>
+  <label>Extract Garnet</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Garnet>10</STC_Garnet>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillPeridot</defName>
+  <label>Extract Peridot</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Peridot>10</STC_Peridot>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillAmethyst</defName>
+  <label>Extract Amethyst</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Amethyst>10</STC_Amethyst>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillCitrine</defName>
+  <label>Extract Citrine</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Citrine>10</STC_Citrine>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillTopaz</defName>
+  <label>Extract Topaz</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Topaz>10</STC_Topaz>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillTurquoise</defName>
+  <label>Extract Turquoise</label>
+  <workAmount>7200</workAmount>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <STC_Turquoise>10</STC_Turquoise>
     </products>
   </RecipeDef>
 
@@ -86,100 +160,50 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillAluminum</defName>
     <label>Extract Aluminum</label>
-    <workAmount>6000</workAmount>
+    <workAmount>7200</workAmount>
     <products>
-      
+      <IndustrialPDA>1</IndustrialPDA>
+      <CAL_Aluminum>10</CAL_Aluminum>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillLead</defName>
     <label>Extract Lead</label>
-    <workAmount>6000</workAmount>
+    <workAmount>7200</workAmount>
     <products>
-      
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Lead>10</EXP_Lead>
     </products>
   </RecipeDef>        
 
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillTin</defName>
     <label>Extract Tin</label>
-    <workAmount>6000</workAmount>
+    <workAmount>7200</workAmount>
     <products>
-      
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Tin>10</EXP_Tin>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="DrillMetalRecipeBase">
     <defName>DrillCopper</defName>
     <label>Extract Copper</label>
-    <workAmount>6000</workAmount>
+    <workAmount>7200</workAmount>
     <products>
-      
-    </products>
-  </RecipeDef>
-
-<!--  Begin Gems  -->
-  <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillCinnabar</defName>
-  <label>Extract Cinnabar</label>
-  <workAmount>6000</workAmount>
-    <products>
-      
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Copper>10</EXP_Copper>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillGarnet</defName>
-  <label>Extract Garnet</label>
-  <workAmount>6000</workAmount>
+  <defName>DrillQuartz</defName>
+  <label>Extract Quartz</label>
+  <workAmount>7200</workAmount>
     <products>
-      
-    </products>
-  </RecipeDef>
-
-  <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillPeridot</defName>
-  <label>Extract Peridot</label>
-  <workAmount>6000</workAmount>
-    <products>
-      
-    </products>
-  </RecipeDef>
-
-  <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillAmethyst</defName>
-  <label>Extract Amethyst</label>
-  <workAmount>6000</workAmount>
-    <products>
-      
-    </products>
-  </RecipeDef>
-
-  <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillCitrine</defName>
-  <label>Extract Citrine</label>
-  <workAmount>6000</workAmount>
-    <products>
-      
-    </products>
-  </RecipeDef>
-
-  <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillTopaz</defName>
-  <label>Extract Topaz</label>
-  <workAmount>6000</workAmount>
-    <products>
-      
-    </products>
-  </RecipeDef>
-
-  <RecipeDef ParentName="DrillMetalRecipeBase">
-  <defName>DrillTurquoise</defName>
-  <label>Extract Turquoise</label>
-  <workAmount>6000</workAmount>
-    <products>
-      
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Quartz>5</EXP_Quartz>
     </products>
   </RecipeDef>
 

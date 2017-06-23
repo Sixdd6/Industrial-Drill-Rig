@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+  	<Operations>
+  		<li Class="PatchOperationTest">
+  			<xpath>*/ThingDef[defName="STC_Cinnabar"]</xpath>
+  		</li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillCharcoal</li>
+          <li>DrillCinnabar</li>
+          <li>DrillGarnet</li>
+          <li>DrillPeridot</li>
+          <li>DrillAmethyst</li>
+          <li>DrillCitrine</li>
+          <li>DrillTopaz</li>
+          <li>DrillTurquoise</li>
+        </value>
+      </li>
+    </Operations>
+  </Operation>
+
+<!--   <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName="CAL_Aluminum"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillAluminum</li>
+        </value>
+      </li>
+    </Operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName="EXP_Copper"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillCopper</li>
+        </value>
+      </li>
+    </Operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName="EXP_Lead"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillLead</li>
+        </value>
+      </li>
+    </Operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName="EXP_Tin"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillTin</li>
+        </value>
+      </li>
+    </Operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <Operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName="EXP_Quartz"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="IndustrialDrillRig"]/recipes</xpath>
+        <value>
+          <li>DrillQuartz</li>
+        </value>
+      </li>
+    </Operations>
+  </Operation> -->
+
+</Patch>

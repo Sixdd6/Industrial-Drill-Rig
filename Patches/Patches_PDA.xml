@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+	<!-- <success>Always</success> -->
+		<Operations>
+			<li Class="PatchOperationTest">
+			<xpath>*/ThingDef[defName="STC_Cinnabar"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+			<!-- <Success>Always</Success> -->
+			<xpath>*/RecipeDef[defName="MakeIndustrialPDA"]/ingredients/li[2]/filter/ThingDefs</xpath>
+				<value>
+					<categories>
+						<li>BaseMetals</li>
+						<li>MetalAlloys</li>
+					</categories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+			<!-- <Success>Always</Success> -->
+			<xpath>*/RecipeDef[defName="MakeIndustrialPDA"]/fixedIngredientFilter</xpath>
+				<value>
+					<categories>
+						<li>BaseMetals</li>
+						<li>MetalAlloys</li>
+					</categories>
+				</value>
+			</li>
+		</Operations>
+	</Operation>
+
+</Patch>
