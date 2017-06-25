@@ -22,9 +22,10 @@
 			</li>
 			<li>
 				<filter>
-					<ThingDefs>
-						<li>Steel</li>
-					</ThingDefs>
+					<categories>
+						<li>BaseMetals</li>
+						<li>MetalAlloys</li>
+					</categories>
 				</filter>
 				<count>10</count>
 			</li>
@@ -35,8 +36,11 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Component</li>
-				<li>Steel</li>
 			</thingDefs>
+			<categories>
+				<li>BaseMetals</li>
+				<li>MetalAlloys</li>
+			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>TableMachining</li>
