@@ -65,11 +65,84 @@
   </RecipeDef>
 
   <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillCharcoal</defName>
+    <label>Extract Charcoal</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Charcoal>10</Charcoal>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
   <defName>DrillJade</defName>
   <label>Extract Jade</label>
-  <workAmount>6000</workAmount>
     <products>
+      <IndustrialPDA>1</IndustrialPDA>
       <Jade>10</Jade>
+    </products>
+  </RecipeDef>
+
+<!--  Begin Stuffified Construction Gems  -->
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillCinnabar</defName>
+  <label>Extract Cinnabar</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Cinnabar>10</Cinnabar>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillGarnet</defName>
+  <label>Extract Garnet</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Garnet>10</Garnet>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillPeridot</defName>
+  <label>Extract Peridot</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Peridot>10</Peridot>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillAmethyst</defName>
+  <label>Extract Amethyst</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Amethyst>10</Amethyst>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillCitrine</defName>
+  <label>Extract Citrine</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Citrine>10</Citrine>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillTopaz</defName>
+  <label>Extract Topaz</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Topaz>10</Topaz>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillTurquoise</defName>
+  <label>Extract Turquoise</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Turquoise>10</Turquoise>
     </products>
   </RecipeDef>
 
