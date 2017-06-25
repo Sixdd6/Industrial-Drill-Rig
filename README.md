@@ -1,3 +1,2 @@
-# Industrial-Drill-Rig
-Adds a big drill to dig up resources in the mid to late game
-
+# Industrial-Drill-Rig - Stuffified + Alloys
+This is the branch of IDR for Stuffified Construction and Cupros' Alloys. See main branch for releases.
