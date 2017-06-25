@@ -5,7 +5,7 @@
 	<!-- <success>Always</success> -->
 		<Operations>
 			<li Class="PatchOperationTest">
-			<xpath>*/ThingDef[defName="STC_Cinnabar"]</xpath>
+			<xpath>*/ThingDef[defName="Cinnabar"]</xpath>
 			</li>
 			<li Class="PatchOperationReplace">
 			<!-- <Success>Always</Success> -->
