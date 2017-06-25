@@ -35,8 +35,6 @@
     </fixedIngredientFilter>
   </RecipeDef>
   
-  <!-- =========== Metals & Coal =========== -->
-  
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillGold</defName>
 	<label>Extract Gold</label>
@@ -61,6 +59,52 @@
 	<workAmount>6000</workAmount>
     <products>
       <Silver>50</Silver>
+    </products>
+  </RecipeDef>
+
+<!--  Begin Cupros Metals  -->
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillAluminum</defName>
+    <label>Extract Aluminum</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <CAL_Aluminum>10</CAL_Aluminum>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillCopper</defName>
+    <label>Extract Copper</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Copper>10</EXP_Copper>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillLead</defName>
+    <label>Extract Lead</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Lead>10</EXP_Lead>
+    </products>
+  </RecipeDef>        
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillTin</defName>
+    <label>Extract Tin</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Tin>10</EXP_Tin>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillQuartz</defName>
+  <label>Extract Quartz</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <EXP_Quartz>10</EXP_Quartz>
     </products>
   </RecipeDef>
 

@@ -1,3 +1,2 @@
 # Industrial-Drill-Rig
-Adds a big drill to dig up resources in the mid to late game
-
+This is the testing branch for IDR, please don't use this branch in a good save IT WILL BREAK.
