@@ -1,4 +1,4 @@
 # Industrial-Drill-Rig - Stuffified Alloys
 > 
-> This is the branch of IDR for base game only.
+> This is the branch of IDR for Stuffified Construction.
 > 
