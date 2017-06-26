@@ -1,2 +1,4 @@
-# Industrial-Drill-Rig
-This is the testing branch for IDR, please don't use this branch in a good save IT WILL BREAK.
+# Industrial-Drill-Rig - Cupros' Alloys
+> 
+> This is the Cupros' Alloys branch for IDR, this version includes support for Cupros' Alloys base metals. See main branch for releases.
+> 
