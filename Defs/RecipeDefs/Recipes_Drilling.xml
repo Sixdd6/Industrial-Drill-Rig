@@ -28,6 +28,10 @@
     <products>
       <IndustrialPDA>1</IndustrialPDA>
     </products>
+    <workAmount>1200</workAmount>
+    <recipeUsers>
+      <li>IndustrialDrillRig</li>
+    </recipeUsers>
     <fixedIngredientFilter>
       <thingDefs>
         <li>IndustrialPDA</li>
@@ -40,7 +44,6 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillGold</defName>
 	<label>Extract Gold</label>
-	<workAmount>6000</workAmount>
     <products>
       <Gold>50</Gold>
     </products>
@@ -49,7 +52,6 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillUranium</defName>
 	<label>Extract Uranium</label>
-	<workAmount>6000</workAmount>
     <products>
       <Uranium>50</Uranium>
     </products>
@@ -58,7 +60,6 @@
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillSilver</defName>
 	<label>Extract Silver</label>
-	<workAmount>6000</workAmount>
     <products>
       <Silver>50</Silver>
     </products>
