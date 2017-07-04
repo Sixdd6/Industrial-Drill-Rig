@@ -39,7 +39,7 @@
     </fixedIngredientFilter>
   </RecipeDef>
   
-  <!-- =========== Metals & Coal =========== -->
+  <!-- =========== Metals =========== -->
   
   <RecipeDef ParentName="DrillMetalRecipeBase">
 	<defName>DrillGold</defName>
@@ -69,7 +69,6 @@
   <defName>DrillJade</defName>
   <label>Extract Jade</label>
     <products>
-      <IndustrialPDA>1</IndustrialPDA>
       <Jade>10</Jade>
     </products>
   </RecipeDef>
