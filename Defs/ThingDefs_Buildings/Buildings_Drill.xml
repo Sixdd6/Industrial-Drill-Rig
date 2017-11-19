@@ -5,14 +5,14 @@
     <defName>IndustrialDrillRig</defName>
     <label>Industrial Mining Drill</label>
     <thingClass>Building_WorkTable</ThingClass>
-    <Description>A computerized electric industrial drilling rig for seeking out and extracting underground minerals. Consumes a very large amount of power.</Description>
+    <Description>A computerized electric industrial drilling rig for seeking out and extracting underground minerals. Consumes power and chemfuel.</Description>
     <graphicData>
       <texPath>Things/Building/Production/DrillRig</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <drawSize>(3,3)</drawSize>
       <damageData>
-        <rect>(0.3,0,5.4,6)</rect>
+        <!-- <rect>(0.3,0,5.4,6)</rect> -->
       </damageData>
     </graphicData>
     <stuffCategories>
