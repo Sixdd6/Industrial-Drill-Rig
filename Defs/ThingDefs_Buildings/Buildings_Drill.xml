@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-  <ThingDef ParentName="BenchBase" Name="IndustrialDrillRig">
+  <thingDef ParentName="BenchBase" Name="IndustrialDrillRig">
     <defName>IndustrialDrillRig</defName>
     <label>Industrial Mining Drill</label>
-    <ThingClass>Building_WorkTable</ThingClass>
+    <thingClass>Building_WorkTable</ThingClass>
     <Description>A computerized electric industrial drilling rig for seeking out and extracting underground minerals. Consumes a very large amount of power.</Description>
     <graphicData>
       <texPath>Things/Building/Production/DrillRig</texPath>
@@ -19,10 +19,10 @@
       <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>500</costStuffCount>
-    <CostList>
+    <costList>
       <Component>20</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>1</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -30,9 +30,9 @@
       <MaxHitPoints>400</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <Size>(3,3)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,3)</size>
+    <designationCategory>Production</DesignationCategory>
+    <passability>PassThroughOnly</Passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
@@ -71,6 +71,6 @@
       <li>IndustrialDrill</li>
     </researchPrerequisites>
     <terrainAffordanceNeeded>SmoothableStone</terrainAffordanceNeeded>
-  </ThingDef>
+  </thingDef>
 
-</ThingDefs>
+</Defs>

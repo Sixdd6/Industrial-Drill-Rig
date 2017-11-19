@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
+<Defs>
 
-  <WorkGiverDef Name="DoBillsDrill">
+  <workGiverDef Name="DoBillsDrill">
     <defName>DoBillsDrill</defName>
     <label>use drilling rig</label>
     <giverClass>WorkGiver_DoBill</giverClass>
@@ -16,6 +16,6 @@
       <li>Manipulation</li>
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
-  </WorkGiverDef>
+  </workGiverDef>
 
-</WorkGivers>
+</Defs>

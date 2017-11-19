@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingUnknown</defName>
 		<label>Industrial PDA: Unknown</label>
 		<graphicData>
@@ -9,9 +9,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingCharcoal</defName>
 		<label>Industrial PDA: Charcoal</label>
 		<graphicData>
@@ -19,9 +19,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGold</defName>
 		<label>Industrial PDA: Gold</label>
 		<graphicData>
@@ -29,9 +29,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingSilver</defName>
 		<label>Industrial PDA: Silver</label>
 		<graphicData>
@@ -39,9 +39,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingUranium</defName>
 		<label>Industrial PDA: Uranium</label>
 		<graphicData>
@@ -49,9 +49,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemJade</defName>
 		<label>Industrial PDA: Jade</label>
 		<graphicData>
@@ -59,9 +59,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingCALCopper</defName>
 		<label>Industrial PDA: Copper</label>
 		<graphicData>
@@ -69,9 +69,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingCALTin</defName>
 		<label>Industrial PDA: Tin</label>
 		<graphicData>
@@ -79,9 +79,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingCALAluminum</defName>
 		<label>Industrial PDA: Aluminum</label>
 		<graphicData>
@@ -89,9 +89,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingCALLead</defName>
 		<label>Industrial PDA: Lead</label>
 		<graphicData>
@@ -99,9 +99,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemCinnabar</defName>
 		<label>Industrial PDA: Cinnabar</label>
 		<graphicData>
@@ -109,9 +109,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemGarnet</defName>
 		<label>Industrial PDA: Garnet</label>
 		<graphicData>
@@ -119,9 +119,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemPeridot</defName>
 		<label>Industrial PDA: Peridot</label>
 		<graphicData>
@@ -129,9 +129,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemAmethyst</defName>
 		<label>Industrial PDA: Amethyst</label>
 		<graphicData>
@@ -139,9 +139,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemCitrine</defName>
 		<label>Industrial PDA: Citrine</label>
 		<graphicData>
@@ -149,9 +149,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemTopaz</defName>
 		<label>Industrial PDA: Topaz</label>
 		<graphicData>
@@ -159,9 +159,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
-	<ThingDef ParentName="UnfinishedBase">
+	<thingDefs ParentName="UnfinishedBase">
 		<defName>UnfinishedPDADrillingGemTurquoise</defName>
 		<label>Industrial PDA: Turquoise</label>
 		<graphicData>
@@ -169,6 +169,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories />
-	</ThingDef>
+	</thingDefs>
 
 </Defs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ResourceBase" Name="IndustrialPDA">
+  <thingDef ParentName="ResourceBase" Name="IndustrialPDA">
     <defName>IndustrialPDA</defName>
     <label>Industrial PDA</label>
     <description>A device intended for use with heavy industrial devices. It enables the user to control the machinery with great precision.</description>
@@ -24,6 +24,6 @@
     <tradeTags>
       <li>Exotic</li>
     </tradeTags>
-  </ThingDef>
+  </thingDef>
 
 </Defs>

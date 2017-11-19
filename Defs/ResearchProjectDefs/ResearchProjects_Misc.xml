@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResearchProjectDefs>
+<Defs>
 
   <ResearchProjectDef Name="IndustrialDrill">
     <defName>IndustrialDrill</defName>
@@ -15,4 +15,4 @@
     <researchViewY>4</researchViewY>
   </ResearchProjectDef>
 
-</ResearchProjectDefs>
+</Defs>

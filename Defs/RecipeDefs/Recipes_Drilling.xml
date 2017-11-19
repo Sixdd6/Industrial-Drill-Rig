@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
-  
+<Defs>
+
 	<!-- =========== Base Recipes =========== -->
-  
+
 	<RecipeDef Name="DrillRecipeBase" Abstract="True">
 		<defName>DrillRecipeBase</defName>
 		<description>Locate and extract minerals from within the earth.</description>
@@ -39,9 +39,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
-  
-  <!-- =========== Metals & Coal =========== -->
-  
+
+  <!-- Begin Recipes -->
+
 	<RecipeDef ParentName="DrillMetalRecipeBase">
 		<defName>DrillGold</defName>
 		<label>Extract Gold</label>
@@ -78,4 +78,13 @@
 		</products>
 	</RecipeDef>
 
-</RecipeDefs>
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillSteel</defName>
+    <label>Extract Steel</label>
+    <unfinishedThingDef>UnfinishedPDADrillingSteel</unfinishedThingDef>
+    <products>
+      <Steel>10</Steel>
+    </products>
+  </RecipeDef>
+
+</Defs>
